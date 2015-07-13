@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fusion Chart Registration</title>
+<link rel="shortcut icon" type="image/x-icon" href="6.ico" />
+</head>
+<body bgcolor="lightgrey">
+<div style="padding:20px;">
+ 
+
+<h2 style="text-align:center">Fusion Chart New Employee Details Form</h2>
+
+<form>
+<fieldset>
+<legend>New Employee Details:</legend>
+	<br>
+	First name:	<br>
+		<input type="text" name="firstname" >
+				<br>
+	Last name:	<br>
+				<input type="text" name="lastname" >
+				<br>
+	Father name:<br>
+				<input type="text" name="lastname" >
+				<br>
+	Gender:		<br>
+				<input type="radio" name="sex" value="male">Male
+				<input type="radio" name="sex" value="female">Female
+				<br>
+	DOB:		<br>
+				<input type="date" name="bday" >
+  				<br>
+  
+	Mobile:		<br>
+				<input type="number" name="mobile" >
+				<br>
+	Email:		<br>
+				<input type="email" name="mail" >
+				<br>
+	Department:	<br>
+				<select name="department">
+				<option value="-1" selected>select..</option>
+				<option value="Fusion Chart">Fusion Chart</option>
+				<option value="Collabion">Collabion</option>
+				</select>
+				<br>
+	Address:	<br>
+				<textarea name="message" rows="10" cols="30">
+				</textarea>
+
+				<br>
+				<label for="fileToUpload">Upload Photo and Documents</label><br />
+      			<input type="file" name="filesToUpload[]" id="filesToUpload" multiple="multiple" />
+      			<output id="filesInfo"></output>
+      		
+      			
+      			
+      			<br><br><br>
+      			<input type="reset" value="Rest All">
+				<input type="submit" value="Submit All Details">
+</fieldset>
+</form>
+
+
+</body>
+</html>
